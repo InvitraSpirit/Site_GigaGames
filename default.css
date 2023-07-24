@@ -1,0 +1,145 @@
+body{
+    background: linear-gradient(to bottom, #757575, rgb(167, 92, 30));
+    margin: 0;
+}
+
+#game_1{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/hollow_knightSS.webp"); 
+}
+
+#game_2{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/minecraft_dungeons.webp");
+}
+
+#game_3{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/FnafSB.png");
+}
+
+#game_4{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/ori.jpg");
+}
+
+#game_5{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/Titan_Souls.jpg");
+}
+
+#game_6{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/Subnautica.png");
+}
+
+#game_7{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/elden_ring.jpg");
+}
+
+#game_8{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/red_dead.jpg");
+}
+
+#game_9{
+    width: 160px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/Slime_Rancher.jpg");
+}
+
+.game_box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 314px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(to bottom, yellow, blue)
+}
+
+.game_catalogue{
+    width: 800px;
+    margin: 78px auto 10px auto;
+    display: flex;
+}
+
+#full_box{
+    border: 10px double rgb(51, 51, 51);
+    width: 75%;
+    margin: 5% auto 8% auto;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+#main_bar{
+    text-align: center;
+    margin-top: 2%;
+    height: 65px;
+    background-color: rgb(156, 156, 156);
+    padding-top: 2%;
+    position: sticky;
+    top: 0;
+    border: 5px solid rgb(82, 82, 82);
+    box-shadow: 0px 7px 8px rgb(37, 37, 37);
+
+}
+
+#search_bar{
+    width: 350px;
+    border-radius: 6px;
+    opacity: 55%;
+}
+
+span{
+    color: white;
+    font-family: "press start 2p";
+    font-size: 8px;
+}
+
+.game_box img{
+    width: 100%;
+    height: 100%;
+    transition: transform .4s ease-in;
+}
+
+.game_box:hover{
+    transform: scale(1.1);
+}
